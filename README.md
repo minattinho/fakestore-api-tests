@@ -6,17 +6,17 @@ Projeto feito a partir do repositório base [ugioni/integration-tests-jest](http
 
 ## GitHub Actions
 
-[![Node.js CI](https://github.com/SEU_USUARIO/fakestore-api-tests/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/SEU_USUARIO/fakestore-api-tests/actions/workflows/node.js.yml)
+[![Node.js CI](https://github.com/minattinho/fakestore-api-tests/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/minattinho/fakestore-api-tests/actions/workflows/node.js.yml)
 
 ## SonarCloud
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=SEU_USUARIO_fakestore-api-tests&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=SEU_USUARIO_fakestore-api-tests)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=minattinho_fakestore-api-tests&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=minattinho_fakestore-api-tests)
 
 ## Sobre a API
 
 A Platzi Fake Store API simula uma loja virtual com produtos, categorias e usuários. Ela é pública, não precisa de chave de acesso e aceita `GET`, `POST`, `PUT` e `DELETE`. Os dados são gravados de verdade, então o que um teste cria pode ser consultado nos testes seguintes.
 
-URL base: `https://api.escuelajs.co/api/v1
+URL base: `https://api.escuelajs.co/api/v1`
 
 ## Tecnologias
 
@@ -89,4 +89,4 @@ O workflow em [.github/workflows/node.js.yml](.github/workflows/node.js.yml) rod
 - **Run Integration Tests**: instala as dependências, roda `npm run ci` e publica a pasta `output` como artefato
 - **Run SonarCloud**: análise estática do código com o SonarCloud
 
-Para o SonarCloud funcionar é preciso criar o secret `SONAR_TOKEN` no repositório (Settings > Secrets and variables > Actions) e ajustar `sonar.projectKey` e `sonar.organization` em [sonar-project.properties](sonar-project.properties).
+Para o SonarCloud funcionar é preciso criar o secret `SONAR_TOKEN` no repositório (Settings > Secrets and variables > Actions).
