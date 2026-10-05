@@ -16,7 +16,7 @@ Projeto feito a partir do repositório base [ugioni/integration-tests-jest](http
 
 A Platzi Fake Store API simula uma loja virtual com produtos, categorias e usuários. Ela é pública, não precisa de chave de acesso e aceita `GET`, `POST`, `PUT` e `DELETE`. Os dados são gravados de verdade, então o que um teste cria pode ser consultado nos testes seguintes.
 
-URL base: `https://api.escuelajs.co/api/v1`
+URL base: `https://api.escuelajs.co/api/v1
 
 ## Tecnologias
 
